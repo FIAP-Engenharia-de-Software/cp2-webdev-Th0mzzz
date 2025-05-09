@@ -9,7 +9,16 @@
 
 function adivinharNumero(max, palpite) {
   // TODO: implementar função
+  let number = parseInt(Math.random() * 10)
+
+  if (number === palpite) {
+    return "Acertou!"
+  } else {
+    return "Errou! Tente novamente!"
+  }
+
 }
+
 
 
 // NÃO REMOVA O CÓDIGO ABAIXO
